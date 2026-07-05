@@ -1,121 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Profile</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammad Shakeeb | Software Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
-<!-- Navigation -->
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <!-- ================= NAVBAR ================= -->
 
-<!-- Hero Section -->
-<header class="hero">
-  <div class="hero-content">
-    <h1>Hi, I'm Muhammad Shakeeb</h1>
-    <p>Hello! I'm Muhammad Shakeeb, a Software Engineering graduate with a passion for technology and software development. I enjoy creating modern, responsive, and user-friendly websites and mobile applications. My interests include web development, Android app development, and learning new technologies to improve my skills. I am a dedicated and hardworking individual who enjoys solving problems through creative and efficient solutions. I believe in continuous learning and always strive to stay updated with the latest industry trends. Through my projects, I aim to build applications that are both functional and visually appealing. I am excited to grow as a developer, take on new challenges, and contribute to meaningful projects that make a positive impact.
-</p>
-    <a href="#projects" class="btn">View My Work</a>
-  </div>
-</header>
+    <header>
 
-<!-- Home Section -->
-<section id="home">
-  <h1>Welcome to My Professional Website</h1>
-  <p>This is my personal portfolio where you can learn about me and my projects.</p>
-</section>
+        <nav class="navbar">
 
-<!-- About Section -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    Hello! I'm <strong>Muhammad Shakeeb</strong>, a Software Engineering student.
-    I enjoy learning new technologies and building websites using HTML, CSS,
-    JavaScript, PHP, and MySQL. My goal is to become a professional Full Stack Web Developer.
-  </p>
-</section>
+            <div class="logo">
+                Muhammad <span>Shakeeb</span>
+            </div>
 
-<!-- Projects Section -->
-<section id="projects">
-  <h2>Projects</h2>
+            <ul class="nav-links">
 
-  <div class="projects-container">
+                <li><a href="#home">Home</a></li>
 
-    <div class="project-card">
-      <img src="project1.jpg" alt="Project 1">
-      <h3>Student Record Management System</h3>
-      <p>A web-based system developed using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+                <li><a href="#about">About</a></li>
 
-    <div class="project-card">
-      <img src="project2.jpg" alt="Project 2">
-      <h3>CUSIT LMS Android App</h3>
-      <p>An Android application developed using Java that provides easy access to the CUSIT Learning Management System.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+                <li><a href="#skills">Skills</a></li>
 
-    <div class="project-card">
-      <img src="project3.jpg" alt="Project 3">
-      <h3>Personal Portfolio Website</h3>
-      <p>A responsive personal portfolio website created using HTML, CSS, and JavaScript.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
+                <li><a href="#services">Services</a></li>
 
-  </div>
-</section>
+                <li><a href="#projects">Projects</a></li>
 
-<!-- Contact Section -->
-<section id="contact">
-  <h2>Contact Me</h2>
+                <li><a href="#contact">Contact</a></li>
 
-  <form class="contact-form">
-    <input type="text" name="name" placeholder="Your Name" required>
+            </ul>
 
-    <input type="email" name="email" placeholder="Your Email" required>
+            <div class="menu-btn">
 
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <i class="fas fa-bars"></i>
 
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+            </div>
 
-  <div class="contact-info">
-    <p>📧 Email: <a href="mailto:muhammadshakeeb9898@gmail.com">muhammadshakeeb9898@gmail.com</a></p>
-    <p>🌍 Location: Peshawar, Pakistan</p>
-  </div>
-</section>
+        </nav>
 
-<!-- Profile Section -->
-<div class="profile">
-  <img src="myphoto.jpg" alt="My Photo" class="profile-pic">
+    </header>
 
-  <h1>MUHAMMAD SHAKEEB</h1>
+    <!-- ================= HERO ================= -->
 
-  <p>Hello! I'm learning web development and this is my first professional portfolio website.</p>
+    <section id="home" class="hero">
 
-  <p>📧 Email: muhammadshakeeb9898@gmail.com</p>
+        <div class="hero-text">
 
-  <p>🌍 Location: Peshawar, Pakistan</p>
+            <h3>Hello, I'm</h3>
 
-  <p>
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/muhammad-shakeeb-413a88404" target="_blank">LinkedIn</a> |
-    <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
-  </p>
-</div>
+            <h1>Muhammad Shakeeb</h1>
 
-<script src="script.js"></script>
+            <h2><span class="typing"></span></h2>
+
+            <p>
+
+                Software Engineering graduate passionate about Web Development,
+                Mobile Applications, Artificial Intelligence, and modern software
+                solutions. I create clean, responsive and user-friendly digital
+                experiences.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">View Projects</a>
+
+                <a href="#contact" class="btn btn-outline">Hire Me</a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+                <a href="https://linkedin.com/in/muhammad-shakeeb-413a88404"
+                    target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="myphoto.jpg" alt="Muhammad Shakeeb">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <img src="myphoto.jpg" alt="Muhammad Shakeeb">
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>Software Engineer</h3>
+
+                <p>
+
+                    I'm Muhammad Shakeeb, a Software Engineering graduate with a
+                    strong passion for building websites, Android applications,
+                    and AI-powered software.
+
+                </p>
+
+                <p>
+
+                    I enjoy solving real-world problems using technology while
+                    continuously improving my skills through learning and
+                    practical projects.
+
+                </p>
+
+                <div class="about-info">
+
+                    <div>
+
+                        <strong>Name:</strong>
+
+                        Muhammad Shakeeb
+
+                    </div>
+
+                    <div>
+
+                        <strong>Email:</strong>
+
+                        muhammadshakeeb9898@gmail.com
+
+                    </div>
+
+                    <div>
+
+                        <strong>Location:</strong>
+
+                        Peshawar, Pakistan
+
+                    </div>
+
+                    <div>
+
+                        <strong>Degree:</strong>
+
+                        BS Software Engineering
+
+                    </div>
+
+                </div>
+
+                <a href="#" class="btn">
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+
+                <h3>HTML</h3>
+
+                <div class="progress">
+                    <span style="width:95%"></span>
+                </div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <h3>CSS</h3>
+
+                <div class="progress">
+                    <span style="width:90%"></span>
+                </div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <h3>JavaScript</h3>
+
+                <div class="progress">
+                    <span style="width:80%"></span>
+                </div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <h3>PHP</h3>
+
+                <div class="progress">
+                    <span style="width:80%"></span>
+                </div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <h3>MySQL</h3>
+
+                <div class="progress">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <h3>Python</h3>
+
+                <div class="progress">
+                    <span style="width:75%"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services" class="services">
+
+        <h2 class="section-title">Services</h2>
+
+        <div class="service-container">
+
+            <div class="service-card">
+
+                <i class="fas fa-code"></i>
+
+                <h3>Web Development</h3>
+
+                <p>
+
+                    Responsive and modern websites using HTML, CSS,
+                    JavaScript and PHP.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-mobile-screen"></i>
+
+                <h3>Android Apps</h3>
+
+                <p>
+
+                    User-friendly Android applications with Java.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fas fa-brain"></i>
+
+                <h3>Artificial Intelligence</h3>
+
+                <p>
+
+                    AI-powered applications and automation solutions.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <img src="project1.jpg" alt="Project">
+
+                <h3>Student Record System</h3>
+
+                <p>
+
+                    PHP, MySQL, Bootstrap, JavaScript
+
+                </p>
+
+                <a href="#" class="btn">View Project</a>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="project2.jpg" alt="Project">
+
+                <h3>CUSIT LMS Android App</h3>
+
+                <p>
+
+                    Java Android Application
+
+                </p>
+
+                <a href="#" class="btn">View Project</a>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="project3.jpg" alt="Project">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+
+                    HTML CSS JavaScript
+
+                </p>
+
+                <a href="#" class="btn">View Project</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea rows="6" placeholder="Your Message"></textarea>
+
+            <button class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Muhammad Shakeeb</h2>
+
+        <p>
+
+            Software Engineer | Web Developer | Android Developer
+
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fab fa-github"></i></a>
+
+            <a href="https://linkedin.com/in/muhammad-shakeeb-413a88404"
+                target="_blank">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+        </div>
+
+        <p>
+
+            © 2026 Muhammad Shakeeb. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
