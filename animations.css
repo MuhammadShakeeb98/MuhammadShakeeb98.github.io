@@ -1,0 +1,27 @@
+@keyframes floatImage{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+.hero-right img{
+
+animation:floatImage 5s ease-in-out infinite;
+
+}
